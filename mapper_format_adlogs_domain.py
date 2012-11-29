@@ -1,13 +1,6 @@
 import sys
 import re
 
-sample=True
-
-if len(sys.argv)>1:
-  #print sys.argv
-  if sys.argv[1]=='nosample':sample=False
-
-#print sample
 
 for l in sys.stdin:
   l = l.rstrip()
@@ -22,9 +15,8 @@ for l in sys.stdin:
   domain = fs[7]
   cookie = fs[8]
   ts = int(fs[20])/1000
-  if sample:
-    if not cookie.endswith('A'):
-      continue
+  if not cookie.endswith('A'):
+    continue
   ### IMPR
   if event=='impr':
     event_no=13

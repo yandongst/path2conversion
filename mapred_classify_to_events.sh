@@ -2,10 +2,10 @@ hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-stre
 pythonbin=/usr/bin/python2.7
 
 
-OUTDIR=/projects/output/merged/merged_logs_classified/sampleA-20120901-20120914
+OUTDIR=/projects/output/merged/merged_logs_classified/sampleA-20121111-20121112
 
 #input_op=/user/root/yandong/01_05_01_10_preprocess_logs_end_A/
-input_op=/projects/output/merged/merged_logs/sampleA-20120901-20120914
+input_op=/projects/output/merged/merged_logs/sampleA-20121111-20121112
 input_op_pre=''
 input_op_post=''
 

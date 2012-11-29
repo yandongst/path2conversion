@@ -55,10 +55,10 @@ for l in sys.stdin:
   #print event
   if event == '13' or event == '14':
     #048AA00A022AD24EC53E553302D47BAA        13,1331660652,thedoghousediaries.com
-    event,ticks,camp,campid,adgroupid = r.split(',') 
+    event,ticks,camp,campid,adgroupid,domain = r.split(',') 
     #if event =='13' and camp in impr_pixel:
     #if event =='13' or event =='14':
-    print '%s\t%s,%s,%s,%s'%(c,ticks,event,camp,adgroupid)
+    print '%s\t%s,%s,%s,%s,%s'%(c,ticks,event,camp,adgroupid,domain)
     #if event =='14' and camp in click_pixel:
 
   elif event == '11':

@@ -14,7 +14,7 @@ d2=$5
 
 ##/input/adlogs/normalized_rtb_adlog/impr/${date}/validdata_*
 input_op_pre=/projects/input/adlogs/normalized_rtb_adlog
-printf -v OUTDIR "/projects/output/merged/adlogs/%04d%02d%02d-%04d%02d%02d-endingA" $year $m1 $d1 $year ${m2#0} $d2
+printf -v OUTDIR "/projects/output/merged/adlogs/%04d%02d%02d-%04d%02d%02d" $year $m1 $d1 $year ${m2#0} $d2
 echo $OUTDIR
 
 input_path="" 
@@ -102,5 +102,5 @@ input_path2=${input_path:0:$l-1}
 
 
 
-echo $hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py' -file mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=yandong_event_w_timestamp -jobconf mapred.reduce.tasks=50
-$hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py' -file mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=yandong_event_w_timestamp -jobconf mapred.reduce.tasks=50
+echo $hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py nosample' -file mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=format_adlogs -jobconf mapred.reduce.tasks=50
+$hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py nosample' -file mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=format_adlogs -jobconf mapred.reduce.tasks=50

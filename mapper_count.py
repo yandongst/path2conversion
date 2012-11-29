@@ -189,9 +189,10 @@ for l in sys.stdin:
 
     campaigns=set([])
     campaigns.update(campaigns1)
+    campaigns.update(adgroups1)
     campaigns.add(str_CAMP)
-    adgroups=set([])
-    adgroups.update(adgroups1)
+    #adgroups=set([])
+    #adgroups.update(adgroups1)
     channels=set([])
     channels.update(channels1)
     channels.add(str_SOCIAL)
@@ -206,7 +207,6 @@ for l in sys.stdin:
 
 
     if event in event_list:
-      pass
       #CAMP/SOCIAL level
       #for channel in channels:
         #print delimit.join([event,str_CAMP,channel])+'\t1'
@@ -229,17 +229,7 @@ for l in sys.stdin:
           #if event in ['1','2']: 
             #print delimit.join([event+'-'+channel,str_CAMP,channel])+'\t1'
       #print
-
-
       
-      #print delimit.join([event,str_ad,str_social])+'\t1'
-    #retarging
-    elif event=='11' and rrr[2] in s_retarg:
-      pass
-      #print delimit.join([event,str_ad,str_social])+'\t1'
-    elif event=='11' and rrr[2] in s_conv:
-      #print delimit.join(['12',str_ad,str_social])+'\t1'
-      pass
 
     #impression
     if event=='13':
