@@ -21,7 +21,8 @@ function cp_data() {
   if [ $? -ne 0 ]
   then
     echo COPYING: hadoop distcp -conf ${ACCDIR}/account/insight-site.xml s3n://sharethis-insights-backup/model/${date}/ctr/net_camp_daily/ /projects/input/ctrlogs/net_camp_daily/${date}
-    hadoop distcp -conf ${ACCDIR}/account/insight-site.xml s3n://sharethis-insights-backup/model/${date}/ctr/net_camp_daily/ /projects/input/ctrlogs/net_camp_daily/${date}
+    #hadoop distcp -conf ${ACCDIR}/account/insight-site.xml s3n://sharethis-insights-backup/model/${date}/ctr/net_camp_daily/ /projects/input/ctrlogs/net_camp_daily/${date}
+hadoop distcp -conf ${ACCDIR}/account/insight-site.xml s3n://sharethis-insights-backup/model/${date}/ctr_daily/net_camp_daily/ /projects/input/ctrlogs/net_camp_daily/${date}
   else
     echo WARNING: path already exists! /projects/input/net_camp_daily/${date}. skip copying...
     fi

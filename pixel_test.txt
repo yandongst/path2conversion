@@ -1,0 +1,4 @@
+impr:RTB-Shutterfly_2012_Q3-RT
+click:RTB-Shutterfly_2012_Q3-RT
+retarg:rt-mr_persuasion
+conv:rt-mr_persuasion

@@ -69,28 +69,34 @@ for l in sys.stdin:
   channel = fs[12]
 
   cates=[]
+  kws=[]
   try:
     j=json.loads(js)
     if 'l99' in j:
       cates= j['l99']
+    if 'l0' in j:
+      kws= j['l0']
   except Exception as inst:
     sys.stderr.write(str(inst)+'\n')
   #if not cookie.endswith('A'):
     #continue
 
+  search_queries=''
+
   ### SHARE
   if event=='share':
-    print '%s\t1,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel)
+    print '%s\t1,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))
 
   elif event=='click':
-    print '%s\t2,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel)
+    print '%s\t2,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))
 
   elif event=='search':
-    print '%s\t4,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel)
+    print '%s\t4,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))
 
-  elif event=='pview':
-    print '%s\t3,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel)
+  #elif event=='pview':
+    #print '%s\t3,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))
 
   else:
-    sys.stderr.write('Wrong'+l)
-    sys.exit(1)
+    pass
+    #sys.stderr.write('Wrong'+l)
+    #sys.exit(1)

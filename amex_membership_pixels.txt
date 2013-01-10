@@ -1,0 +1,14 @@
+retarg:rt-amexserve_page1
+retarg:rt-amexserve_page2
+impr:RTB-amex-membership
+click:RTB-amex-membership
+#cate:social_cultural_family_parenting
+#cate:education
+#cate:shopping_consumer_electronics
+#cate:shopping_food_and_drink
+#cate:shopping_home_garden
+#cate:shopping_pets
+#cate:shopping_beauty
+#cate:shopping_clothing
+#cate:shopping_jewelry
+cate:business_finance_service

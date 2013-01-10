@@ -12,6 +12,7 @@ for l in sys.stdin:
     print '\t'.join([key,'impr',impr])
     print '\t'.join([key,'click',click])
   if len(fs)==2:#perform
+    if len(fs[0].split('--'))!=3: continue
     campid,dom,typ=fs[0].split('--')
     cnt=fs[1]
     dom=dom.lower()

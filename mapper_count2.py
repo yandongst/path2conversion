@@ -1,5 +1,6 @@
 import sys
 
+#I believe this is an old version of mapper_count.py
 def filter_events(events): 
   l_events=[]
   has_ad=False

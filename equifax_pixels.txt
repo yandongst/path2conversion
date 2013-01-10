@@ -1,0 +1,9 @@
+impr:RTB-Equifax-RT
+impr:RTB-Equifax-RT1
+impr:RTB-Equifax-RT2
+click:RTB-Equifax-RT
+click:RTB-Equifax-RT1
+click:RTB-Equifax-RT2
+retarg:rt-equifax_hp
+conv:rb-equifax_q1 
+cate:business_finance_service

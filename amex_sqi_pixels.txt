@@ -1,0 +1,5 @@
+target:rt-amex_account_setup
+target:rt-amex_basic_info
+target:rt-amex
+impr:RTB-AMEX-Serve-Q1-SQI
+click:RTB-AMEX-Serve-Q1-SQI

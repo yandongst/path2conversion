@@ -9,11 +9,11 @@ input_op_post=''
 
 input_op="-input ${input_op} "
 
-fn_d2v="d2v_impr.txt"
+fn_d2v=$1
 fn_camp2name="camp2name.csv"
 
 
 echo $input_op
  
-echo $hstream $input_op -output ${OUTDIR} -mapper "$pythonbin mapper_domain_vert_impr.py $fn_d2v $fn_camp2name" -file mapper_domain_vert_impr.py -file $fn_d2v -file $fn_camp2name -reducer "$pythonbin reducer_domain_vert_impr.py" -file reducer_domain_vert_impr.py  -jobconf mapred.job.name=yandong_path_count -jobconf mapred.reduce.tasks=200
-$hstream $input_op -output ${OUTDIR} -mapper "$pythonbin mapper_domain_vert_impr.py $fn_d2v $fn_camp2name" -file mapper_domain_vert_impr.py -file $fn_d2v -file $fn_camp2name -reducer "$pythonbin reducer_domain_vert_impr.py" -file reducer_domain_vert_impr.py  -jobconf mapred.job.name=yandong_path_count -jobconf mapred.reduce.tasks=200
+echo $hstream $input_op -output ${OUTDIR} -mapper "$pythonbin mapper_domain_vert_impr.py $fn_d2v $fn_camp2name" -file mapper_domain_vert_impr.py -file $fn_d2v -file $fn_camp2name -reducer "$pythonbin reducer_domain_vert_impr.py" -file reducer_domain_vert_impr.py  -jobconf mapred.job.name=add_vertical -jobconf mapred.reduce.tasks=200
+$hstream $input_op -output ${OUTDIR} -mapper "$pythonbin mapper_domain_vert_impr.py $fn_d2v $fn_camp2name" -file mapper_domain_vert_impr.py -file $fn_d2v -file $fn_camp2name -reducer "$pythonbin reducer_domain_vert_impr.py" -file reducer_domain_vert_impr.py  -jobconf mapred.job.name=add_vertical -jobconf mapred.reduce.tasks=200

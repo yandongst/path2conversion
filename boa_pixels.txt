@@ -1,0 +1,4 @@
+impr:dummy
+click:dummy
+retarg:8X
+#cate:technology

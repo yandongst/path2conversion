@@ -1,3 +1,6 @@
+#this is an old version. this computes social lift which makes things nasty
+#user metrics2.py
+
 import sys
 
 delimit='-;,'

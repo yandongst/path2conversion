@@ -1,0 +1,54 @@
+besthalloweenpics.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	1.00008	0.0
+csmonitor.com	75363180	RTB-MGM_NYNY_2012-RT	16	/News	0.99999	0.0
+fanfiction.net	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+imgur.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	2.00001	0.0
+naruto.wikia.com	75363180	RTB-MGM_NYNY_2012-RT	8	/Games	0.339493934838	0.0
+null	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	15.00009	0.0
+slashdot.org	75363180	RTB-MGM_NYNY_2012-RT	13	/Internet & Telecom	0.453975662622	0.0
+zimbio.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	1.99998	0.0
+0bdb3aefc4dff3af.anonymous.google	75363180	RTB-MGM_NYNY_2012-RT	13	/Internet & Telecom	0.99999	0.0
+95d8d6786f66d7fb.anonymous.google	75363180	RTB-MGM_NYNY_2012-RT	47	/Autos & Vehicles	1.99998	0.0
+avclub.com	75363180	RTB-MGM_NYNY_2012-RT	16	/News	0.23656791731	0.0
+bleacherreport.com	75363180	RTB-MGM_NYNY_2012-RT	20	/Sports	0.99999	0.0
+boxingscene.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+cbs_television	75363180	RTB-MGM_NYNY_2012-RT	8	/Games	0.99999	0.0
+chacha.com	75363180	RTB-MGM_NYNY_2012-RT	13	/Internet & Telecom	0.17629254498	0.0
+circleofsnark.forumotion.com	75363180	RTB-MGM_NYNY_2012-RT	299	/Online Communities	1.00008	0.0
+google.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+mediatakeout.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	1.99998	0.0
+pof.com	75363180	RTB-MGM_NYNY_2012-RT	14	/People & Society	2.00001	0.0
+slashgear.com	75363180	RTB-MGM_NYNY_2012-RT	5	/Computers & Electronics	0.99999	0.0
+static.quickmeme.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+thejigsawpuzzles.com	75363180	RTB-MGM_NYNY_2012-RT	18	/Shopping	1.00008	0.0
+thesuperficial.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+theybf.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+auctionzip.com	75363180	RTB-MGM_NYNY_2012-RT	18	/Shopping	0.99999	0.0
+bootsnall.com	75363180	RTB-MGM_NYNY_2012-RT	67	/Travel	1.00008	0.0
+catsofaustralia.com	75363180	RTB-MGM_NYNY_2012-RT	66	/Pets & Animals	1.00002	0.0
+chiroeco.com	75363180	RTB-MGM_NYNY_2012-RT	45	/Health	1.00008	0.0
+cracked.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+filmfirstlook.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+india-forums.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+iwastesomuchtime.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+movies.cosmicbooknews.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+polarisatvforums.com	75363180	RTB-MGM_NYNY_2012-RT	47	/Autos & Vehicles	0.99999	0.0
+amazingrace.realitysteve.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+bizrice.com	75363180	RTB-MGM_NYNY_2012-RT	11	/Home & Garden	0.34402032544	0.0
+collective_media	75363180	RTB-MGM_NYNY_2012-RT	16	/News	0.395848184924	0.0
+ehow.com	75363180	RTB-MGM_NYNY_2012-RT	11	/Home & Garden	3.00006	0.0
+hot1047.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+jpost.com_-_adx_emea	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	1.99998	0.0
+livestrong.com	75363180	RTB-MGM_NYNY_2012-RT	45	/Health	0.99999	0.0
+realtor.com	75363180	RTB-MGM_NYNY_2012-RT	29	/Real Estate	1.99998	0.0
+twistedsifter.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+wineverygame.com	75363180	RTB-MGM_NYNY_2012-RT	8	/Games	1.00008	0.0
+additudemag.com	75363180	RTB-MGM_NYNY_2012-RT	45	/Health	0.99999	0.0
+artifacting.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+disboards.com	75363180	RTB-MGM_NYNY_2012-RT	67	/Travel	0.99999	0.0
+foxnews.com	75363180	RTB-MGM_NYNY_2012-RT	16	/News	1.00008	0.0
+sandrarose.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	3.00003	1.00002
+screenrant.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+soccerway.com	75363180	RTB-MGM_NYNY_2012-RT	20	/Sports	0.99999	0.0
+towleroad.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	1.00008	0.0
+vegasnews.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	0.99999	0.0
+youtube.com	75363180	RTB-MGM_NYNY_2012-RT	3	/Arts & Entertainment	1.99998	0.0

@@ -10,7 +10,7 @@ for l in sys.stdin:
   l =l.strip()
   #print 'l:',l
   ev,lift,after,before,level=l.split(' ')
-  if float(after)+float(before)<50.0:continue
+  #if float(after)+float(before)<50.0:continue
   #print ev,lift,after,before,level
   #output 3 lines
   #  before

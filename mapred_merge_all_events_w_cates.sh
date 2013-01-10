@@ -16,6 +16,7 @@ d2=$5
 
 printf -v timeperiod "%04d%02d%02d-%04d%02d%02d" $year $m1 $d1 $year $m2 $d2
 
+#input_op+="-input /projects/output/merged/merged_logs_classified/sampleA-${timeperiod}-w-kws "
 input_op+="-input /projects/output/merged/merged_logs_classified/sampleA-${timeperiod} "
 input_op+="-input /projects/output/merged/adlogs/${timeperiod}-endingA "
 input_op+="-input /projects/output/merged/retarg/${timeperiod}-endA "
@@ -32,16 +33,9 @@ input_op+="-input /projects/output/merged/retarg/${timeperiod}-endA "
 #cate=shopping_clothing
 
 
-#fn_cate=${cate}
 
-fn=amex_both_pixels.txt
-fn=amex_nonsqi_pixels.txt
-fn=amex_sqi_pixels.txt
-fn=equifax_pixels.txt
-
-
-#OUTDIR=/projects/output/merged/userevents_adlogs_retarg/${timeperiod}_endA_${fn}
 OUTDIR=/projects/output/merged/userevents_adlogs_retarg/${timeperiod}_endA
+#OUTDIR=/projects/output/merged/userevents_adlogs_retarg/${timeperiod}_endA-w-kws
 
 mapper_opt="python mapper_merge_all_events_all_cates.py"
 
@@ -50,4 +44,4 @@ echo mapper_opt: $mapper_opt
 
 echo $hstream  $input_op -output ${OUTDIR} -mapper "$mapper_opt" -file mapper_merge_all_events_all_cates.py -reducer "python reducer.py"  -file /data/4/yandong/reducer.py -jobconf mapred.reduce.tasks=500 -jobconf mapred.job.name='conv_path'
 #$hstream  $input_op -output ${OUTDIR} -mapper "$mapper_opt" -file mapper_merge_all_events_all_cates.py -reducer "python reducer.py"  -file /data/4/yandong/reducer.py -jobconf mapred.reduce.tasks=500 -jobconf mapred.task.timeout=3600000 -jobconf mapred.job.name='conv_path'
-$hstream  $input_op -output ${OUTDIR} -mapper "$mapper_opt" -file mapper_merge_all_events_all_cates.py -file $fn -reducer "python reducer.py"  -file reducer.py -jobconf mapred.reduce.tasks=500 -jobconf mapred.task.timeout=3600000 -jobconf mapred.job.name='conv_path'
+$hstream  $input_op -output ${OUTDIR} -mapper "$mapper_opt" -file mapper_merge_all_events_all_cates.py -reducer "python reducer.py"  -file reducer.py -jobconf mapred.reduce.tasks=500 -jobconf mapred.task.timeout=3600000 -jobconf mapred.job.name='conv_path'

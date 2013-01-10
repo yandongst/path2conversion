@@ -1,0 +1,210 @@
+1-stumbleupon 425.0% 42.0 8.0 Adlift-CAMP
+1-stumbleupon 425.0% 42.0 8.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-email 333.0% 13.0 3.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-pinterest 300.0% 4.0 1.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-pinterest 267.0% 22.0 6.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-delicious 249.0% 122.0 35.0 Adlift-CAMP
+2-delicious 249.0% 122.0 35.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-plusone 225.0% 13.0 4.0 Adlift-CAMP
+1-plusone 225.0% 13.0 4.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-tumblr 200.0% 195.0 65.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-googleplus 200.0% 3.0 1.0 Adlift-CAMP
+2-googleplus 200.0% 3.0 1.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-blogger 200.0% 3.0 1.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-amazon_wishlist 200.0% 15.0 5.0 Adlift-CAMP
+1-pinterest 180.0% 14.0 5.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-tumblr 164.0% 227.0 86.0 Adlift-CAMP
+2-wordpress 150.0% 5.0 2.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-facebook 147.0% 47.0 19.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-email 120.0% 367.0 167.0 Adlift-CAMP
+1 103.0% 69.0 34.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-email 96.0% 272.0 139.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-blogger 94.0% 192.0 99.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2 85.0% 87.0 47.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-squidoo 73.0% 19.0 11.0 Adlift-CAMP
+2-squidoo 64.0% 18.0 11.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-amazon_wishlist 60.0% 8.0 5.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-email 47.0% 25.0 17.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-facebook 43.0% 140.0 98.0 Adlift-CAMP
+2-blogger 42.0% 747.0 526.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-facebook 41.0% 1587.0 1129.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+3 40.0% 5250.0 3750.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-blogger 39.0% 867.0 622.0 Adlift-CAMP
+3 27.0% 62945.0 49577.0 Adlift-CAMP
+3 27.0% 20329.0 15968.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-twitter 27.0% 14.0 11.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+3 26.0% 39026.0 30891.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-facebook 26.0% 2332.0 1845.0 Adlift-CAMP
+2-stumbleupon 24.0% 98.0 79.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+4 21.0% 2504.0 2075.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2 21.0% 2532.0 2087.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-stumbleupon 20.0% 656.0 547.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-email 20.0% 72.0 60.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-facebook 19.0% 94.0 79.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-stumbleupon 18.0% 1001.0 845.0 Adlift-CAMP
+4 14.0% 4811.0 4219.0 Adlift-CAMP
+2-stumbleupon 14.0% 344.0 303.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-twitter 13.0% 230.0 203.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-pinterest 13.0% 441.0 390.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1 12.0% 352.0 314.0 Adlift-CAMP
+4 11.0% 127.0 114.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-reddit 10.0% 44.0 40.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-facebook 8.0% 826.0 763.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+4 7.0% 2235.0 2089.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-typepad 6.0% 19.0 18.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-twitter 6.0% 267.0 253.0 Adlift-CAMP
+1 4.0% 292.0 281.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+3 3.0% 3575.0 3474.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-stumbleupon 0.0% 1.0 1.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-squidoo 0.0% 1.0 1.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-linkedin 0.0% 1.0 1.0 Adlift-CAMP
+2 -2.0% 12592.0 12817.0 Adlift-CAMP
+1-pinterest -2.0% 103.0 105.0 Adlift-CAMP
+2-tumblr -4.0% 24.0 25.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-facebook -5.0% 19.0 20.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2 -5.0% 10358.0 10935.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-wordpress -6.0% 15.0 16.0 Adlift-CAMP
+1-pinterest -6.0% 96.0 102.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-typepad -14.0% 19.0 22.0 Adlift-CAMP
+2-reddit -14.0% 60.0 70.0 Adlift-CAMP
+4 -15.0% 162.0 190.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-pinterest -18.0% 7250.0 8830.0 Adlift-CAMP
+2-pinterest -18.0% 6969.0 8537.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-twitter -19.0% 52.0 64.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-wordpress -21.0% 11.0 14.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-facebook -26.0% 81.0 109.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-twitter -26.0% 37.0 50.0 Adlift-CAMP
+1-twitter -30.0% 35.0 50.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-email -30.0% 7.0 10.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-email -33.0% 6.0 9.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-reddit -36.0% 18.0 28.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2 -37.0% 431.0 680.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-email -37.0% 12.0 19.0 Adlift-CAMP
+1 -47.0% 10.0 19.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-wordpress -50.0% 1.0 2.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-delicious -50.0% 2.0 4.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-twitter -50.0% 1.0 2.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-pinterest -52.0% 209.0 431.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-blogger -56.0% 7.0 16.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-reddit -60.0% 2.0 5.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-fark -60.0% 2.0 5.0 Adlift-CAMP
+2-fark -60.0% 2.0 5.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-facebook -62.0% 5.0 13.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-typepad -75.0% 1.0 4.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-sharenow_auto -76.0% 5.0 21.0 Adlift-CAMP
+1-sharenow_auto -76.0% 5.0 21.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-tumblr -83.0% 1.0 6.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-delicious -94.0% 1.0 17.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-reddit -100.0% 0.0 1.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-linkedin -100.0% 0.0 1.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-googleplus -100.0% 0.0 1.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-fark -100.0% 0.0 1.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-digg -100.0% 0.0 3.0 Adlift-CAMP
+2-digg -100.0% 0.0 3.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-yahoo -100.0% 0.0 1.0 Adlift-CAMP
+1-yahoo -100.0% 0.0 1.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-sharenow -100.0% 0.0 1.0 Adlift-CAMP
+1-sharenow -100.0% 0.0 1.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-google_reader -100.0% 0.0 1.0 Adlift-CAMP
+1-google_reader -100.0% 0.0 1.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-googleplus -100.0% 0.0 2.0 Adlift-CAMP
+1-googleplus -100.0% 0.0 2.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-facebook -100.0% 0.0 2.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-email -100.0% 0.0 2.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-digg -100.0% 0.0 2.0 Adlift-CAMP
+1-digg -100.0% 0.0 2.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-delicious -100.0% 0.0 1.0 Adlift-CAMP
+1-delicious -100.0% 0.0 1.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-blogger -100.0% 0.0 1.0 Adlift-CAMP
+1-blogger -100.0% 0.0 1.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1 -100.0% 0.0 2.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-wordpress N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-typepad N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-typepad N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-twitter N/A 2.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-tumblr N/A 9.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-technorati N/A 2.0 0.0 Adlift-CAMP
+2-technorati N/A 1.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-technorati N/A 1.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-technorati N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-technorati N/A 0.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-squidoo N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-squidoo N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-netvibes N/A 5.0 0.0 Adlift-CAMP
+2-netvibes N/A 5.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-netvibes N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-netvibes N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-netvibes N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-livejournal N/A 1.0 0.0 Adlift-CAMP
+2-livejournal N/A 1.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-livejournal N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-livejournal N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-livejournal N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-linkedin N/A 1.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-linkedin N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-linkedin N/A 0.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-kaboodle N/A 1.0 0.0 Adlift-CAMP
+2-kaboodle N/A 1.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-kaboodle N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-kaboodle N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-kaboodle N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-instapaper N/A 1.0 0.0 Adlift-CAMP
+2-instapaper N/A 1.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-instapaper N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-instapaper N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-instapaper N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-google_reader N/A 7.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-google_reader N/A 7.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-google_reader N/A 14.0 0.0 Adlift-CAMP
+2-google_reader N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-google_reader N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-googleplus N/A 1.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-googleplus N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-google_bmarks N/A 1.0 0.0 Adlift-CAMP
+2-google_bmarks N/A 1.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-google_bmarks N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-google_bmarks N/A 0.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-google_bmarks N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-fark N/A 0.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-fark N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-digg N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-digg N/A 0.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+2-digg N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-delicious N/A 2.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+2-amazon_wishlist N/A 4.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+2-amazon_wishlist N/A 3.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+2-amazon_wishlist N/A 3.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-yahoo N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-yahoo N/A 0.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-yahoo N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-twitter N/A 2.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-twitter N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-stumbleupon N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-stumbleupon N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-stumbleupon N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-sharenow N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-sharenow N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-sharenow N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-sharenow_auto N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-sharenow_auto N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-sharenow_auto N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-plusone N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-plusone N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-plusone N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-pinterest N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-google_reader N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-google_reader N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-google_reader N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-googleplus N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-googleplus N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-googleplus N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-email N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-digg N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-digg N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-digg N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-delicious N/A 0.0 0.0 Adlift-adgroup a.3948386220-RTB-Activa-Brandstudy
+1-delicious N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-delicious N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
+1-blogger N/A 0.0 0.0 Adlift-adgroup a.3897771900-RTB-Activa-NonRT
+1-blogger N/A 0.0 0.0 Adlift-adgroup a.3897771540-RTB-Activa-Pintrest
+1-blogger N/A 0.0 0.0 Adlift-adgroup a.3897768660-RTB-Activa-RT
