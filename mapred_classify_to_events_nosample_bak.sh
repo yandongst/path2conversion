@@ -8,7 +8,7 @@ d1=$3
 m2=$4
 d2=$5
 
-INPUT_HOME=s3n://sharethis-research/projects/input/merged_logs/
+INPUT_HOME=/projects/input/merged_logs/
 #printf -v OUTDIR_HOME "/projects/output/merged/merged_logs/sampleA-%04d%02d%02d-%04d%02d%02d" $year ${m1#0} $d1 $year ${m2#0} $d2
 
 #echo $OUTDIR_HOME

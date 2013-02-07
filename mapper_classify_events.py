@@ -66,32 +66,46 @@ for l in sys.stdin:
   domain = fs[3]
   cookie = fs[8]
   js = fs[13]
+  refdomain = fs[10]
+  refurl = fs[11]
   channel = fs[12]
 
   cates=[]
   kws=[]
+  lang=''
+  location=fs[9].replace(',','_')
   try:
     j=json.loads(js)
     if 'l99' in j:
       cates= j['l99']
     if 'l0' in j:
       kws= j['l0']
+    if 'lang' in j:
+      lang= j['lang']
+      if lang != 'english':continue
   except Exception as inst:
     sys.stderr.write(str(inst)+'\n')
   #if not cookie.endswith('A'):
     #continue
 
   search_queries=''
+  #print 'l:',l
+  #print
+  #print 'refdomain:',refdomain,'refurl:',refurl
+  #print
 
   ### SHARE
   if event=='share':
-    print '%s\t1,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))
+    print '%s\t1,%s,%s,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws),search_queries,location)
 
   elif event=='click':
-    print '%s\t2,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))
+    print '%s\t2,%s,%s,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws),search_queries,location)
 
   elif event=='search':
-    print '%s\t4,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))
+    search_queries=find_search(refdomain,refurl)
+    search_queries=search_queries.replace('+',' ').strip()
+    #print 'search:', search_queries
+    print '%s\t4,%s,%s,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws),search_queries,location)
 
   #elif event=='pview':
     #print '%s\t3,%s,%s,%s,%s,%s'%(cookie,date,domain,'-'.join(cates),channel,'-'.join(kws))

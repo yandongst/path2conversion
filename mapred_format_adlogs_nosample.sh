@@ -1,4 +1,3 @@
-hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-0.23.1-mr1-cdh4.0.0b2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
 
 if [ $# -ne 5 ]
 then
@@ -14,7 +13,7 @@ d2=$5
 
 ##/input/adlogs/normalized_rtb_adlog/impr/${date}/validdata_*
 input_op_pre=/projects/input/adlogs/normalized_rtb_adlog
-printf -v OUTDIR "/projects/output/merged/adlogs/%04d%02d%02d-%04d%02d%02d-endingA" $year $m1 $d1 $year ${m2#0} $d2
+printf -v OUTDIR "/projects/output/merged/adlogs/%04d%02d%02d-%04d%02d%02d" $year $m1 $d1 $year ${m2#0} $d2
 echo $OUTDIR
 
 input_path="" 

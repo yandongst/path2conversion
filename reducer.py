@@ -9,16 +9,16 @@ def event_camp(a,b):
   try:
     date_a,event_a = a.split(',')[0:2]
     date_b,event_b = b.split(',')[0:2]
-    date_delta=int(date_a) - int(date_b)
+    date_delta=long(date_a) - long(date_b)
     #if date_delta==0:
       #return  int(event_a) - int(event_b)
     #else:
       #return int(date_a) - int(date_b)
-    return date_delta
+    return int(date_delta)
   except Exception as exp:
     sys.stderr.write(str(exp)+'\n')
     sys.stderr.write('ERR a:'+ a+'\n')
-    sys.stderr.write('ERR b:'+ b+'\n')
+    sys.stderr.write('ERR b:'+ b+'\n\n')
   return 0
 
 
@@ -43,3 +43,5 @@ for l in sys.stdin:
     del ls_f[:]
 
   ls_f.extend(r.split(';'))
+
+sort_events(current_c,ls_f);
