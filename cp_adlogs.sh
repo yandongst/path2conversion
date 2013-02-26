@@ -1,7 +1,7 @@
 #src=hftp://184.73.100.20/user/root/adlog_analytics/normalized_rtb_adlog
 src=hftp://ads-nn1.east.sharethis.com/user/btdev/projects/adlog_analytics/normalized_rtb_adlog
 #src=s3n://campaign-analytics/parsed_adlogs/normalized_rtb_adlog/
-dest=/projects/input/adlogs/normalized_rtb_adlog
+dest=/projects/science/input/adlogs/normalized_rtb_adlog
 ACCDIR=/home/yandong
 
 if [ $# -ne 5 ]
@@ -23,8 +23,8 @@ function cp_data() {
   if [ $? -ne 0 ]
   then
     echo COPYING: hadoop distcp $src/$event/$date $dest/$event/${date}
-    hadoop distcp $src/$event/$date $dest/$event/${date}
-#hadoop distcp -conf ${ACCDIR}/account/insight-site.xml $src/$event/$date $dest/$event/${date}
+    #hadoop distcp $src/$event/$date $dest/$event/${date}
+hadoop distcp -conf ${ACCDIR}/account/insight-site.xml $src/$event/$date $dest/$event/${date}
   else
     echo WARNING: path already exists! $dest/$event/${date}. skip copying...
     fi

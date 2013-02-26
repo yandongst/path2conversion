@@ -1,5 +1,4 @@
-hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-0.23.1-mr1-cdh4.0.0b2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
-
+hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
 if [ $# -ne 5 ]
 then
   echo 'not enough parameters'
@@ -12,9 +11,11 @@ d1=$3
 m2=$4
 d2=$5
 
+dir="/home/yandong/workspace/path"
+
 ##/input/adlogs/normalized_rtb_adlog/impr/${date}/validdata_*
-input_op_pre=/projects/input/adlogs/normalized_rtb_adlog
-printf -v OUTDIR "/projects/output/merged/adlogs/%04d%02d%02d-%04d%02d%02d-endingA" $year $m1 $d1 $year ${m2#0} $d2
+input_op_pre=/projects/science/input/adlogs/normalized_rtb_adlog
+printf -v OUTDIR "/projects/science/output/merged/adlogs/%04d%02d%02d-%04d%02d%02d" $year $m1 $d1 $year ${m2#0} $d2
 echo $OUTDIR
 
 input_path="" 
@@ -102,5 +103,5 @@ input_path2=${input_path:0:$l-1}
 
 
 
-echo $hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py nosample' -file mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=yandong_event_w_timestamp -jobconf mapred.reduce.tasks=50
-$hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py nosample' -file mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=yandong_event_w_timestamp -jobconf mapred.reduce.tasks=50
+echo $hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py nosample' -file $dir/mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=yandong_event_w_timestamp -jobconf mapred.reduce.tasks=50
+$hstream -input "$input_path2" -output ${OUTDIR} -mapper 'python mapper_format_adlogs.py nosample' -file $dir/mapper_format_adlogs.py -reducer 'cat'  -jobconf mapred.job.name=yandong_event_w_timestamp -jobconf mapred.reduce.tasks=50 -jobconf mapred.job.queue.name=science

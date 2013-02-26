@@ -48,6 +48,7 @@ def read_pixels(fn):
 
 for l in sys.stdin:
   l = l.strip()
+  if len(l.split('\t'))!=2:continue
   c,r = l.split('\t')
   #print len(r.split(','))
   
@@ -73,12 +74,12 @@ for l in sys.stdin:
     #elif camp in conv:
     #print '%s\t%d,12'%(c,ticks)
   elif event =='4':
-    event,ts,domain,s_cate,channel= r.split(',',4) 
+    event,ts,domain,s_cate,channel,kws,search_q,location= r.split(',',7) 
     st = datetime.strptime(ts, "%Y%m%d %H:%M:%S")
     ticks= int(time.mktime(st.timetuple()))
     #print c+'\t'+str(ticks)+','+event+','+query
     #if not cates:
-    print c+'\t'+str(ticks)+','+event+','+channel+','+s_cate
+    print c+'\t'+str(ticks)+','+event+','+channel+','+s_cate+','+kws+','+search_q+','+domain+','+location
     #else:
     #  toprint=False
     #  for c1 in s_cate.split('-'):
@@ -91,12 +92,12 @@ for l in sys.stdin:
   else: 
     #if len(r.split(','))!=3:
       #print l
-    event,ts,data,s_cate,channel= r.split(',',4) 
+    event,ts,domain,s_cate,channel,kws,search_q,location= r.split(',',7) 
     st = datetime.strptime(ts, "%Y%m%d %H:%M:%S")
     ticks= int(time.mktime(st.timetuple()))
     #print c+'\t'+str(ticks)+','+event+','+data
     #if not cates:
-    print c+'\t'+str(ticks)+','+event+','+channel+','+s_cate
+    print c+'\t'+str(ticks)+','+event+','+channel+','+s_cate+','+kws+','+search_q+','+domain+','+location
     #else:
     #  toprint=False
     #  for c1 in s_cate.split('-'):

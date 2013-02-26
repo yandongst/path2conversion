@@ -1,5 +1,4 @@
 ACCDIR=/home/yandong
-dest=/projects/science/input/retarg
 
 if [ $# -ne 5 ]
 then
@@ -13,17 +12,19 @@ d1=$3
 m2=$4
 d2=$5
 
+srcdir=s3n://sharethis-research/projects/input/merged_logs
+dstdir=/projects/input/merged_logs
+
 
 function cp_data() {
   date=$1
-  hadoop fs -test -d $dest/${date} 2> /dev/null
+  hadoop fs -test -d $dstdir/${date} 2> /dev/null
   if [ $? -ne 0 ]
   then
-    echo COPYING: hadoop distcp -conf ${ACCDIR}/account/insight-site.xml s3n://campaign-analytics/parsed_adlogs/extract_retarg_log/dt=${date}/ $dest/${date}
-    #hadoop fs -conf /root/insight-account/core-site.xml -get s3n://campaign-analytics/parsed_adlogs/extract_retarg_log/dt=${date}/ .
-    hadoop distcp -conf ${ACCDIR}/account/insight-site.xml s3n://campaign-analytics/parsed_adlogs/extract_retarg_log/dt=${date}/ $dest/${date}
+    echo COPYING: hadoop distcp -conf ${ACCDIR}/account/prod-site.xml $srcdir/${date}/ $dstdir/${date}
+    hadoop distcp -conf ${ACCDIR}/account/prod-site.xml $srcdir/${date}/ $dstdir/${date}
   else
-    echo WARNING: path already exists! $dest/${date}. skip copying...
+    echo WARNING: path already exists! /projects/input/retarg/${date}. skip copying...
     fi
 }
 

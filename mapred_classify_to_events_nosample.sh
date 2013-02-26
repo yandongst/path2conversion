@@ -1,5 +1,8 @@
-hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-0.23.1-mr1-cdh4.0.0b2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
+#hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
+hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -inputformat SequenceFileAsTextInputFormat -jobconf mapred.output.compress=true -jobconf mapred.output.compression.codec=org.apache.hadoop.io.compress.SnappyCodec -jobconf mapred.input.compression.type=BLOCK'
 pythonbin=/usr/bin/python2.7
+
+dir="/home/yandong/workspace/path"
 
 year=$1
 m1=$2
@@ -7,7 +10,8 @@ d1=$3
 m2=$4
 d2=$5
 
-INPUT_HOME=/projects/input/merged_logs/
+INPUT_HOME=/projects/science/input/merged_logs/
+INPUT_HOME=s3n://sharethis-research/projects/input/merged_logs/
 #printf -v OUTDIR_HOME "/projects/output/merged/merged_logs/sampleA-%04d%02d%02d-%04d%02d%02d" $year ${m1#0} $d1 $year ${m2#0} $d2
 
 #echo $OUTDIR_HOME
@@ -88,5 +92,5 @@ OUTDIR=$6
 
 #no sample
 #change mapper_classify_events.py back if you want sampling
-echo $hstream -input $input_path2 -output ${OUTDIR} -mapper "$pythonbin mapper_classify_events.py" -file mapper_classify_events.py -reducer 'cat'  -jobconf mapred.job.name=yandong_classify -jobconf mapred.reduce.tasks=500
-$hstream -input $input_path2 -output ${OUTDIR} -mapper "$pythonbin mapper_classify_events.py" -file mapper_classify_events.py -reducer 'cat'  -jobconf mapred.job.name=yandong_classify -jobconf mapred.reduce.tasks=500
+echo $hstream -input $input_path2 -output ${OUTDIR} -mapper "$pythonbin mapper_classify_events.py" -file $dir/mapper_classify_events.py -reducer 'cat'  -jobconf mapred.job.name=yandong_classify -jobconf mapred.reduce.tasks=500 -jobconf mapred.job.queue.name=default
+$hstream -input $input_path2 -output ${OUTDIR} -mapper "$pythonbin mapper_classify_events.py" -file $dir/mapper_classify_events.py -reducer 'cat'  -jobconf mapred.job.name=yandong_classify -jobconf mapred.reduce.tasks=500 -jobconf mapred.job.queue.name=default

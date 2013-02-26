@@ -13,17 +13,23 @@ def filter_events(events):
     if event in ['1','2','3','4']:
       try:
         cates = set(fields[3].split('-'))
-        if len(s_cates)>0:
-          if cates & s_cates:
-            l_events.append(ev);
-          else:
-            pass
+        #if len(s_cates)>0:
+          #if cates & s_cates:
+            #l_events.append(ev);
+          #else:
+            #pass
             #print len(s_cates)
             #print >>sys.stdout,'>> didnt add because of cate.',ev
+        kws=set(fields[4].lower().split('-'))
+        #print kws
+        if len(s_kw)>0:
+          if kws & s_kw:
+            l_events.append(ev);
+          #else: print 'nooverlap'
         else:
           l_events.append(ev);
       except Exception, ex:
-        print >>sys.stderr,'ERROR:',ev
+        print >>sys.stderr,'ERROR:',ev,ex
         continue
         #raise
     elif event=='13':#impr
@@ -40,6 +46,7 @@ def filter_events(events):
     else:
       #print '---whats this---',ev
       pass
+  #print l_events
   if has_ad: return l_events,s_adg 
   else: return [],[]
 
@@ -50,6 +57,7 @@ s_impr_pixel=set([])#13
 s_click_pixel=set([])#14
 s_cates=set([])
 s_adgroups=set([])
+s_kw=set([])
 
 def read_pixels(fn):
   global s_retarg
@@ -58,11 +66,13 @@ def read_pixels(fn):
   global s_click_pixel
   global s_cate
   global s_adgroups
+  global s_kw
   for l in open(fn,'r'):
     l = l.rstrip()
     if l.startswith('#'):
       continue
     type,pixel = l.split(':')
+    type=type.strip()
     if type == 'retarg':
       s_retarg.add(pixel)
     elif type == 'conv':
@@ -71,10 +81,13 @@ def read_pixels(fn):
       s_impr_pixel.add(pixel)
     elif type == 'click':
       s_click_pixel.add(pixel)
-    elif type == 'cate':
-      s_cates.add(pixel)
+    #elif type == 'cate':
+      #s_cates.add(pixel)
     elif type == 'adgroup':
       s_adgroups.add(pixel)
+    elif type == 'keyword':
+      s_kw = set([x.strip().lower() for x in pixel.split(',')])
+      #print s_kw
     else:
       sys.stderr.write('Error: unrecognized type:'+type)
       #sys.exit(1)

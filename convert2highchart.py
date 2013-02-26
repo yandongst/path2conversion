@@ -9,6 +9,9 @@ x_label={'1':'Share','2':'Click','3':'PageView','4':'Search','11':'Retargeting'}
 for l in sys.stdin:
   l =l.strip()
   #print 'l:',l
+  if len(l.split(' '))!=5:
+    sys.stderr.write(l+'\n')
+    sys.exit(1)
   ev,lift,after,before,level=l.split(' ')
   #if float(after)+float(before)<50.0:continue
   #print ev,lift,after,before,level
@@ -36,6 +39,7 @@ for l in sys.stdin:
 
 #print x_channel
 for ev_no in x_channel:
+  continue
   print 'Adlift for ',x_label[ev_no]
   channel_list = x_channel[ev_no].keys()
   #c_list=[x_label[x] for x in channel_list]
@@ -83,10 +87,11 @@ for adg in x_adg_ch:
   print
 print '-'*50
 
-#print x_adgroup
-for adg in x_adgroup:
+#for adg in x_adgroup:
+for adg in sorted(x_adgroup.keys()):
   print 'Adlift for ',adg
-  channel_list = x_adgroup[adg].keys()
+  channel_list = sorted(x_adgroup[adg].keys())
+  #print channel_list
   c_list=[x_label[x] for x in channel_list]
   l_b=[]
   l_a=[]
@@ -104,7 +109,7 @@ for adg in x_adgroup:
   print 'Lift,',','.join(l_l)
   print
 
-print '-'*50
+#print '-'*50
 
 #print x_overall
 #print 'Adlift for all'
