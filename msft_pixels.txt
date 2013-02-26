@@ -1,4 +1,0 @@
-impr:RTB-MSFT-Contre-Jour_RT
-click:RTB-MSFT-Contre-Jour_RT
-retarg:ut
-cate:technology

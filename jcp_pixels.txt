@@ -1,8 +1,0 @@
-retarg:rt-disney
-retarg:rt-mr_persuasion
-conv:rt-disney_conversion
-impr:RTB-JCP-RT
-impr:RTB-JCP-RT1
-click:RTB-JCP-RT
-adgroup:
-cate:a

@@ -15,3 +15,4 @@ echo ${dates}
 ./mapred_format_adlogs_nosample.sh ${dates}
 ./mapred_retarg_nosample.sh ${dates}
 ./mapred_merge_all_events_w_cates_nosample.sh ${dates}
+

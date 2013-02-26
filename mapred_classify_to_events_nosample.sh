@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
 hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -inputformat SequenceFileAsTextInputFormat -jobconf mapred.output.compress=true -jobconf mapred.output.compression.codec=org.apache.hadoop.io.compress.SnappyCodec -jobconf mapred.input.compression.type=BLOCK'
+=======
+#hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-0.23.1-mr1-cdh4.0.0b2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
+hstream='hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -D mapred.output.compress=true -D mapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec'
+>>>>>>> 5672ebcfb487d5abc5374b281851c191ce3dd4bd
 pythonbin=/usr/bin/python2.7
 
 dir="/home/yandong/workspace/path"
@@ -10,7 +15,10 @@ d1=$3
 m2=$4
 d2=$5
 
+<<<<<<< HEAD
 INPUT_HOME=/projects/science/input/merged_logs/
+=======
+>>>>>>> 5672ebcfb487d5abc5374b281851c191ce3dd4bd
 INPUT_HOME=s3n://sharethis-research/projects/input/merged_logs/
 #printf -v OUTDIR_HOME "/projects/output/merged/merged_logs/sampleA-%04d%02d%02d-%04d%02d%02d" $year ${m1#0} $d1 $year ${m2#0} $d2
 
