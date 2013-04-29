@@ -12,8 +12,9 @@ printf -v timeperiod "%04d%02d%02d-%04d%02d%02d" $year $m1 $d1 $year $m2 $d2
 echo ${dates}
 
 fn=$6
-output=$7
-./mapred_adlift_combination_kw_count.sh /projects/science/output/merged/userevents_adlogs_retarg/${timeperiod} /projects/science/output/merged/userevents_adlogs_retarg_cnt/${timeperiod}_kw/ $fn
-hadoop fs -text /projects/science/output/merged/userevents_adlogs_retarg_cnt/${timeperiod}_kw/$fn/part-0000*.gz|python metrics_adlift.py > $output
-echo output to $output
+fn_output=$7
+./mapred_adlift_combination_kw_count.sh /projects/science/output/merged/userevents_adlogs_retarg/${timeperiod} /projects/science/output/merged/userevents_adlogs_retarg_cnt/keyword/${timeperiod}/ $fn
+echo hadoop fs -text /projects/science/output/merged/userevents_adlogs_retarg_cnt/keyword/${timeperiod}/${fn}/part-0000*.gz\|python metrics_adlift.py \> ${fn_output}
+hadoop fs -text /projects/science/output/merged/userevents_adlogs_retarg_cnt/keyword/${timeperiod}/${fn}/part-0000*.gz|python metrics_adlift.py > ${fn_output}
+echo output to $fn_output
 

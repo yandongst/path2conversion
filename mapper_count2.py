@@ -9,17 +9,18 @@ def filter_events(events):
     fields=ev.split(',')
     if len(fields)<3:continue
     event=fields[1]
+    #print fields
     
     if event in ['1','2','3','4']:
       try:
         cates = set(fields[3].split('-'))
         if len(s_cates)>0:
-          if cates & s_cates:
+          if '%ANY%' in s_cates:
+            l_events.append(ev);
+          elif cates & s_cates:
             l_events.append(ev);
           else:
             pass
-            #print len(s_cates)
-            #print >>sys.stdout,'>> didnt add because of cate.',ev
         else:
           l_events.append(ev);
       except Exception, ex:
@@ -27,7 +28,11 @@ def filter_events(events):
         continue
         #raise
     elif event=='13':#impr
-      if fields[2] in s_impr_pixel:
+      if '%ANY%' in s_impr_pixel:
+        has_ad=True
+        l_events.append(ev);
+        s_adg.add(fields[3])
+      elif fields[2] in s_impr_pixel:
         has_ad=True
         l_events.append(ev);
         s_adg.add(fields[3])
@@ -63,6 +68,8 @@ def read_pixels(fn):
     if l.startswith('#'):
       continue
     type,pixel = l.split(':')
+    type=type.strip()
+    pixel=pixel.strip()
     if type == 'retarg':
       s_retarg.add(pixel)
     elif type == 'conv':
@@ -81,7 +88,6 @@ def read_pixels(fn):
 
 read_pixels(sys.argv[1])
 
-#print s_impr_pixel
 
 for l in sys.stdin:
   l = l.strip()
@@ -90,7 +96,7 @@ for l in sys.stdin:
   f_events,s_adg=filter_events(events)
   if f_events:
     #print events
-    #print f_events
+    #print 'f:',f_events
     #print s_adg
     pass
 

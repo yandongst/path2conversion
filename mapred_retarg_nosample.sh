@@ -12,7 +12,7 @@ m2=$4
 d2=$5
 dir="/home/yandong/workspace/path"
 
-INPUT_HOME=/projects/science/input/retarg/
+INPUT_HOME=/projects/science/input/retarg_poe/
 printf -v OUTDIR_HOME "/projects/science/output/merged/retarg/%04d%02d%02d-%04d%02d%02d" $year $m1 $d1 $year $m2 $d2
 
 input_path="" 

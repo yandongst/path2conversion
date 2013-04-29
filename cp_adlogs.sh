@@ -1,7 +1,5 @@
-#src=hftp://184.73.100.20/user/root/adlog_analytics/normalized_rtb_adlog
-src=hftp://ads-nn1.east.sharethis.com/user/btdev/projects/adlog_analytics/normalized_rtb_adlog
-#src=s3n://campaign-analytics/parsed_adlogs/normalized_rtb_adlog/
-dest=/projects/science/input/adlogs/normalized_rtb_adlog
+src=s3n://sharethis-insights-backup/model
+dest=/projects/science/input/adlogs_new
 ACCDIR=/home/yandong
 
 if [ $# -ne 5 ]
@@ -17,16 +15,15 @@ m2=$4
 d2=$5 
 
 function cp_data() {
-  event=$1
-  date=$2
+  date=$1
   hadoop fs -test -d $dest/$event/${date} 2> /dev/null
   if [ $? -ne 0 ]
   then
-    echo COPYING: hadoop distcp $src/$event/$date $dest/$event/${date}
+    echo COPYING: hadoop distcp -conf ${ACCDIR}/account/insight-site.xml $src/$date/ctr_hourly/ $dest/${date}
     #hadoop distcp $src/$event/$date $dest/$event/${date}
-hadoop distcp -conf ${ACCDIR}/account/insight-site.xml $src/$event/$date $dest/$event/${date}
+    hadoop distcp -conf ${ACCDIR}/account/insight-site.xml $src/$date/ctr_hourly/ $dest/${date}
   else
-    echo WARNING: path already exists! $dest/$event/${date}. skip copying...
+    echo WARNING: path already exists! $dest/${date}. skip copying...
     fi
 }
 
@@ -36,8 +33,7 @@ then
     for (( d=$d1; d <= $d2; d++ ))
     do
       printf -v date "%04d%02d%02d" $year $m1 $d
-      cp_data impr $date
-      cp_data click $date
+      cp_data $date
     done
 
 else
@@ -47,8 +43,7 @@ else
     for (( d=$d1; d <= 31; d++ ))
     do
       printf -v date "%04d%02d%02d" $year $m1 $d
-      cp_data impr $date
-      cp_data click $date
+      cp_data $date
     done
 
   let m_start=$m1+1
@@ -60,8 +55,7 @@ else
       for (( d=1; d <= 31; d++ ))
       do
         printf -v date "%04d%02d%02d" $year $m $d
-        cp_data impr $date
-        cp_data click $date
+        cp_data $date
       done
   done
 
@@ -69,8 +63,7 @@ else
     for (( d=1; d <= $d2; d++ ))
     do
       printf -v date "%04d%02d%02d" $year $m2 $d
-      cp_data impr $date
-      cp_data click $date
+      cp_data $date
   done
 
 fi

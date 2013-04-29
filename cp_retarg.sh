@@ -1,5 +1,5 @@
 ACCDIR=/home/yandong
-dest=/projects/science/input/retarg
+dest=/projects/science/input/retarg_poe
 
 if [ $# -ne 5 ]
 then
