@@ -4,17 +4,11 @@ import re
 sample=False
 
 if len(sys.argv)>1:
-  #print sys.argv
   if sys.argv[1]=='sample':sample=True
-
-#print sample
 
 for l in sys.stdin:
   l = l.rstrip()
   fs = l.split('\t')
-  #print len(fs)
-  #if len(fs) != 2:
-    #continue
   camp = fs[11]
   campid = fs[13]
   adgroupid = fs[14]

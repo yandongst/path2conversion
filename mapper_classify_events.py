@@ -53,14 +53,10 @@ def in_cate(cates):
       return True
   return False
 
-#read_cate(fn_cate)
 
 for l in sys.stdin:
   l = l.rstrip()
   fs = l.split('\t')
-  #if len(fs) != 15:
-    #print len(fs)
-    #continue
   date = fs[0]
   event = fs[1]
   domain = fs[3]
@@ -89,10 +85,6 @@ for l in sys.stdin:
     #continue
 
   search_queries=''
-  #print 'l:',l
-  #print
-  #print 'refdomain:',refdomain,'refurl:',refurl
-  #print
 
   ### SHARE
   if event=='share':
