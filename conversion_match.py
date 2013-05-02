@@ -118,8 +118,6 @@ def find_match(events, has_impr,has_click):
     elif evno == '13' and not converted:
       pass 
 
-    
-
 read_pixels(sys.argv[1])
 lastday=sys.argv[2]
 st = datetime.strptime(lastday, "%Y%m%d")
@@ -144,6 +142,4 @@ for l in sys.stdin:
   events=r.split(delimit)
   has_impr,has_click,f_events=filter_events(events,ts1,ts2)
   if not f_events: continue
-  #print has_impr,has_click,f_events
-  #debug(f_events)
   find_match(f_events,has_impr,has_click)
